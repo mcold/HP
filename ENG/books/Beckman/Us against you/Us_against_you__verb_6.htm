@@ -1138,7 +1138,7 @@ function CheckAnswers(){
 	if (AllCorrect == false){
 		Output += Incorrect;
 	}
-	//ShowMessage(Output);
+	////ShowMessage(Output);
 	setTimeout('WriteToInstructions(Output)', 50);
 	
 	Score = TotalScore;
@@ -1306,7 +1306,7 @@ function ShowHint(){
 		SetGapValue(CurrGap, HintString);
 		State[CurrGap].HintsAndChecks += 1;
 	}
-	//ShowMessage(GiveHint);
+	////ShowMessage(GiveHint);
 }
 
 function TypeChars(Chars){
